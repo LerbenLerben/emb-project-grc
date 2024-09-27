@@ -8,7 +8,7 @@ set(CMAKE_ASM_COMPILER arm-none-eabi-gcc)
 set(CMAKE_OBJCOPY arm-none-eabi-objcopy)
 
 set(CMAKE_C_FLAGS "-mcpu=cortex-m4 -mthumb -O2 -Wall")
-set(CMAKE_EXE_LINKER_FLAGS "-T STM32F4xx.ld -Wl,-Map=output.map")
+set(CMAKE_EXE_LINKER_FLAGS "-T firmware/it2021_bms/stm32_flash.ld -Wl,-Map=output.map")
 
 include_directories(
     firmware/it2021_bms/Inc
