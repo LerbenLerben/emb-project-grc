@@ -12,7 +12,8 @@ set(CMAKE_EXE_LINKER_FLAGS "-T firmware/it2021_bms/stm32_flash.ld -Wl,-Map=outpu
 
 include_directories(
     firmware/it2021_bms/include
-    firmware/it2021_bms/Drivers/
+    firmware/it2021_bms/Drivers
+    firmware/it2021_bms/lib
 )
 
 set(SOURCES
