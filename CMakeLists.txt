@@ -17,7 +17,6 @@ include_directories(
 
 set(SOURCES
     firmware/it2021_bms/src/main.c
-    firmware/it2021_bms/srcstartup_stm32f4xx.s
 )
 
 add_executable(emb-project.elf ${SOURCES})
