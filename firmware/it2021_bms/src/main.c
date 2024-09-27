@@ -189,8 +189,8 @@ void USART2_IRQHandler(void)
 }
 
 void read_sensor_values(int *sensors) {
-    sensors[0] = 2200;  // Mock temperature1: 22.00°C
-    sensors[1] = 2300;  // Mock temperature2: 23.00°C
+    sensors[0] = 2200;  // Mock temperature1: 22.00Â°C
+    sensors[1] = 2300;  // Mock temperature2: 23.00Â°C
     sensors[2] = 3700;  // Mock cell voltage1: 3.7V (in millivolts: 3700 mV)
     sensors[3] = 3650;  // Mock cell voltage2: 3.65V (in millivolts: 3650 mV)
     sensors[4] = 3800;  // Mock cell voltage3: 3.8V (in millivolts: 3800 mV)
