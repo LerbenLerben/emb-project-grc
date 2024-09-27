@@ -14,6 +14,7 @@ include_directories(
     firmware/it2021_bms/include
     firmware/it2021_bms/Drivers
     firmware/it2021_bms/lib
+    firmware/it2021_bms/Drivers/CMSIS/Device/ST/STM32L1xx/Include
 )
 
 set(SOURCES
